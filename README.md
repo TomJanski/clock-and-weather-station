@@ -1,6 +1,6 @@
 # clock-and-weather-station
 Digital Clock plus Weather Station
-/* 
+
 * Digital clock plus weather station 
 * Clock showing: time, current month and day. 
 * Weather station is super cool. It takes your global position 
@@ -13,4 +13,4 @@ Digital Clock plus Weather Station
 * The weather station thanks to simpleweather app by James 
 * Fleeting at https://twitter.com/fleetingftw
 * More info at http://simpleweatherjs.com
-*/ 
+
