@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Digital Clock plus Weather Station</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css">
+		<link rel="stylesheet" href="../css/clock.css">
+		<link rel="stylesheet" href="../css/weather-icons.css">
+</head>
+<body>
+	<div id="clock">
+		<div class="time">
+			<div id="current-time"></div>
+		</div>
+		<!-- end time-->
+		<div class="date-time">
+			<div class="month-day"><span id="current-month"></span> <span id="current-day"></span></div>
+		</div><!--end date-time-->
+	</div><!--end #clock--> 
+		
+		<div id="weather"> <!--start weather container-->
+			<div class="tem-location">
+				<p class="weathericon"></p>
+				<p class="description"></p>
+				<h2 class="location"></h2>
+			</div>
+			
+			<div class="add-info">
+				<p class="temp"></p>
+				<p id="wn">
+					<span class="wind-dir"></span>
+					<span class="windspeed"></span>
+					<img src="img/sky.svg" width="20" alt="wind-dir">
+				</p>
+				<p id="hm">
+					<span class="humidity"></span>
+					<img class="humidity-icon" src="img/humidity.svg" width="20" alt="humidity"> 
+				</p>
+			</div>
+		</div><!--end weather container-->
+			
+	<div id="change-location"> 
+		<div class="get-location" style="display: none;">Get your location</div>
+	</div> <!--end change-location-->
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="js/jquery.simpleWeather.js"></script>
+	<script src="js/weather.js"></script>
+	<!--<script src="js/fullstackclock.js"></script>-->
+</body>
+</html>
